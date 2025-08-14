@@ -1,1 +1,1 @@
-web: APP_PORT=3000 heroku-applink-service-mesh "java $JAVA_OPTS -jar $BUILD_DIR/target/agentforce-actions-0.0.1-SNAPSHOT.jar"
+web: APP_PORT=3000 heroku-applink-service-mesh "java $JAVA_OPTS -jar $APP_DIR/target/agentforce-actions-0.0.1-SNAPSHOT.jar"
